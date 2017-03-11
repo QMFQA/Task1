@@ -1,15 +1,13 @@
 package task;
 
-public class Square extends Figure {
+public class Square extends Rectangle {
 
+	
 	public Square(double i) {
-		this.i = i;
+		super(i, i);
+		// TODO Auto-generated constructor stub
 	}
-	public double perimeter()
-    {
-		per = 4*i;
-		return per;
-    }
 
+	
 
 }
