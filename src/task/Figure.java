@@ -1,9 +1,7 @@
 package task;
 
-public class Figure {
+public abstract class Figure {
 		
-	public double perimeter() 
-	{
-		return 0;
-	}
+	public abstract double perimeter();
+
 }
