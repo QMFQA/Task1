@@ -1,5 +1,10 @@
 package task;
 
+import task.classes.Circle;
+import task.classes.Figure;
+import task.classes.Rectangle;
+import task.classes.Square;
+
 public class Main {
 	
 	public static void main(String[] args)
