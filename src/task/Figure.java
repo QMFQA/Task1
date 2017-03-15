@@ -3,12 +3,8 @@ package task;
 import static java.lang.Math.*;
 
 abstract class Figure {
-
-	String getName() {
-		return this.getClass().getSimpleName();
-	}
 	
-	double dimention1;
+	protected double dimention1;
 		
 	Figure(double a) {
 		
@@ -19,7 +15,7 @@ abstract class Figure {
 
 	@Override
 	public String toString() {
-		return this.getName();
+		return this.getClass().getSimpleName();
 	}
 		
 	
@@ -27,7 +23,7 @@ abstract class Figure {
 
 class Circle extends Figure{
 	
-	Circle(double a) {
+	protected Circle(double a) {
 		
 		super(a);
 	}
@@ -40,7 +36,7 @@ class Circle extends Figure{
 
 class Square extends Figure{
 	
-	Square(double a) {
+	protected Square(double a) {
 		
 		super(a);
 	}
@@ -53,9 +49,9 @@ class Square extends Figure{
 
 class Rectangle extends Square{
 	
-	double dimention2;
+	protected double dimention2;
 	
-	Rectangle(double a, double b) {
+	protected Rectangle(double a, double b) {
 		
 		super(a);
 		this.dimention2 = b;
