@@ -10,6 +10,5 @@ public class Main {
 		figures[2] = new Square(15.75);
 		for (Figure figure : figures)
 			System.out.println(figure + " perimeter is " + figure.perimeter());
-	}
-	
+	}	
 }
