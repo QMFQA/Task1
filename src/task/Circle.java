@@ -6,6 +6,7 @@ public class Circle extends Figure{
 		this.Radius = Radius;
 	}
 
+	@Override
 	double perimeter()
 	{
 		return 2*Math.PI*Radius;
