@@ -1,16 +1,9 @@
 package task;
 
-public class Square extends Figure {
+public class Square extends Rectangle {
 
-	private double side;
 	Square(double side) {
-		this.side = side;
-	}
-
-	@Override
-	double perimeter() {
 		
-		return 4*side;
+		super(side, side);
 	}
-
 }
