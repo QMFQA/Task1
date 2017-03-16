@@ -1,12 +1,9 @@
 package task;
 
-public class Square extends Figure {
-	private double side;
+public class Square extends Rectangle {
 	public Square (double side){
-		this.side = side;
+		super (side,side);
 		}
-   	public double perimeter(){
-   		return 4*side;
-   		}
-}	
+}
+	
 
