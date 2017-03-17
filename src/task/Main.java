@@ -1,5 +1,9 @@
 package task;
 
+import task.classes.Circle;
+import task.classes.Figure;
+import task.classes.Rectangle;
+import task.classes.Square;
 
 public class Main {
 	
@@ -12,5 +16,4 @@ public class Main {
 		for (Figure figure : figures)
 			System.out.println(figure + " perimeter is " + figure.perimeter());
 	}
-	
 }
