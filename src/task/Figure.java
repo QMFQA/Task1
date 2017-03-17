@@ -2,12 +2,12 @@ package task;
 
 abstract class Figure {
 	
-	String NAME;
+	protected String name;
 	
-	abstract double perimeter();
-	String getName()
+	public abstract double perimeter();
+	public String getName()
 	{
-		return NAME;
+		return name;
 	}
 	
 	@Override

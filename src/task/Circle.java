@@ -5,10 +5,10 @@ public class Circle extends Figure{
 	
 		public Circle( float Radius) {
 		this.Radius = Radius;
-		super.NAME = "Circle";
+		name = "Circle";
 	}
 	@Override
-	double perimeter()
+	public double perimeter()
 	{
 		return 2*Math.PI*Radius;
 	}
