@@ -10,8 +10,7 @@ public class Circle extends Figure {
 	
 	@Override
 	public double perimeter() {
-		double circle_perimetr = 2*Math.PI*radius;
-		return circle_perimetr;
+		return 2*Math.PI*radius;
 	}
 
 }
