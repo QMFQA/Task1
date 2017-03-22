@@ -10,5 +10,9 @@ public class Rectangle extends Figure {
    	public double perimeter(){
    		return (side1 + side2) * 2;
 }
+   	@Override
+   	public String toString () {
+   		return getClass().getSimpleName();
+}
 }
 
