@@ -2,7 +2,7 @@ package task;
 
 public abstract class Figure {
 	
-	private String name;
+	private final String name;
 
 	public Figure(String name) {
 		this.name = name;
