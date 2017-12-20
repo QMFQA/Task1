@@ -5,15 +5,7 @@ public class Circle extends Figure {
 	private double radius;
 
 	public Circle(double radius) {
-		super("Circle");		
-		this.radius = radius;
-	}
-
-	public double getRadius() {
-		return radius;
-	}
-
-	public void setRadius(double radius) {
+		super();		
 		this.radius = radius;
 	}
 
