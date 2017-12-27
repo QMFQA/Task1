@@ -6,7 +6,6 @@ public class Rectangle extends Figure {
 	private double lengh;
 	
 	public Rectangle(double width, double lengh) {
-		super();
 		this.width = width;
 		this.lengh = lengh;
 	}
